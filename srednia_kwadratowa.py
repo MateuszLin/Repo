@@ -2,7 +2,7 @@ import math
 from myerror import IBeBack
 
 def srednia_kwad(lista):
-    """..."""
+    """Funkcja obliczajaca srednia kwadratowa."""
     if type(lista) != list:
         raise IBeBack()
     suma=0
