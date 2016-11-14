@@ -10,3 +10,6 @@ def srednia_kwad(lista):
         suma+=i*i
     srednia = math.sqrt(float(suma)/len(lista))
     return srednia
+
+def srednia_arytmetyczna(lista):
+    return len(sum(lista))/len(lista)
